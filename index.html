@@ -1,0 +1,52 @@
+<html>
+
+<body>
+    <script>
+        
+        var nome = prompt("Informe seu nome:"); 
+
+        while (nome == '1' && nome == '2' && nome == '3' && nome == '4' && nome != '5' && nome == '6' && nome == '7'
+            && nome == '8' && nome == '9' && nome == '0' && nome == '10') {
+
+            alert("Digite um nome valido!!!");
+            var av1 = prompt("Informe o nome novamente:");
+        }
+
+        var av1 = prompt("Informe a nota da AV1:");
+      
+
+        while (av1 != '1' && av1 != '2' && av1 != '3' && av1 != '4' && av1 != '5' && av1 != '6' && av1 != '7'
+            && av1 != '8' && av1 != '9' && av1 != '0' && av1 != '10') {
+
+            alert("Digite um valor valido!!!");
+            var av1 = prompt("Informe a nota da AV1 novamente:");
+        }
+
+
+var av2 = prompt("Informe a nota da AV2:");
+
+while (av2 != '1' && av2 != '2' && av2 != '3' && av2 != '4' && av2 != '5' && av2 != '6' && av2 != '7'
+            && av2 != '8' && av2 != '9' && av2 != '0' && av2 != '10') {
+
+            alert("Digite um valor valido!!!");
+            var av2 = prompt("Informe a nota da AV2 novamente:");
+        }
+
+        av1 = parseInt(av1);
+        av2 = parseInt(av2);
+
+var mediaResultado = (av1 + av2)/2;
+
+
+    if(mediaResultado >= 6){
+        alert("UAU!! FOI APROVADO COM MEDIA " +mediaResultado);
+    }
+    else(
+        alert("SINTO MUITO.. FOI REPROVADO, PRECISA FAZER AV3 " +nome)
+    );
+ 
+
+    </script>
+</body>
+
+</html>
